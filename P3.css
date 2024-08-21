@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    display: inline-block;   
+
+    margin: 0 10px;
+}
+
+.product-details {
+    display: flex;
+    gap: 20px;
+}
+
+.product-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.reviews, .related-products {
+    margin-top: 20px;
+}
+
+.review {
+    margin-bottom: 10px;
+}
+
+.rating {
+    font-size: 18px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
